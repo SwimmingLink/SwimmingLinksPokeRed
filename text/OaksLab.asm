@@ -136,8 +136,8 @@ _OaksLabGivePokeballsExplanationText::
 	cont "it's fair game."
 
 	para "Just throw a #"
-	line "BALL at it and try"
-	cont "to catch it!"
+	line "BALL at it and" ; "try" was dropped from this line to the next as the "y" at the end got cut off by the down-arrow
+	cont "try to catch it!" ; this line was changed from "line" to "cont" as it overwrote the previous line of text
 
 	para "This won't always"
 	line "work, though."
